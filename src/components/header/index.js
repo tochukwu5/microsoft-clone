@@ -55,7 +55,7 @@ export default function Header() {
             <H.Container>
                 <H.NavWrap>
                     <H.Nav show={mobshow} onClick={() => setMobshow(!mobshow)} />
-                    <H.Logo href="/">
+                    <H.Logo href="/microsoft-clone">
                         <img src="img/logo.png" alt="" />
                     </H.Logo>
                     <H.NavList>

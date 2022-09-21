@@ -90,6 +90,7 @@ padding: 0;
 flex-direction:${props => props.inv ? 'column-reverse' : 'column'}!important;
 justify-content:center;
 align-items:center;
-width:100vw;
+width:100%;
+margin:auto;
 
 `;
