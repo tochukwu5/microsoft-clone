@@ -49,7 +49,7 @@ export default function Hero() {
                     
                         </HS.HeroTxt>
                         <HS.HeroImg>
-                            <img src="./img/home.jpeg" alt="" />
+                            <img src="img/home.jpeg" alt="" />
                         </HS.HeroImg>
                     </HS.HeroWrap>
             </HS.Container>

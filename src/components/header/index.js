@@ -56,7 +56,7 @@ export default function Header() {
                 <H.NavWrap>
                     <H.Nav show={mobshow} onClick={() => setMobshow(!mobshow)} />
                     <H.Logo href="/">
-                        <img src="/img/logo.png" alt="" />
+                        <img src="img/logo.png" alt="" />
                     </H.Logo>
                     <H.NavList>
                         {nav.map(list => {

@@ -2,7 +2,7 @@
   "name": "microsoft",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tochukwu5.github.io/react-microsoft-clone/",
+  "homepage": "https://tochukwu5.github.io/microsoft-clone/",
   "dependencies": {
     "antd": "^4.15.5",
     "gh-pages": "^4.0.0",

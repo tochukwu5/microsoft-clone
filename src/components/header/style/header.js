@@ -2,8 +2,8 @@ import styled from 'styled-components/macro'
 
 const mobsize = '950px';
 const bgColor = '#F3F4F6';
-const hamImg = '/img/nav.png';
-const cancImg = '/img/cancel.png';
+const hamImg = 'img/nav.png';
+const cancImg = 'img/cancel.png';
 
 export const Wrap = styled.div`
 width:100%;
@@ -111,7 +111,7 @@ input {
     z-index: 1400;
     padding: 8px 15px;
     font-size:14px;
-    background: url('./img/search.png') no-repeat;
+    background: url('img/search.png') no-repeat;
     background-position:  bottom 50% right 10px;;
     background-size: 16px;
     border: 2px solid black;
@@ -150,7 +150,7 @@ border: 1px solid black;
 `;
 
 export const Search = styled(Icon)`
-background: url('/img/search.png') no-repeat center center;
+background: url('img/search.png') no-repeat center center;
 `;
 export const Cancel = styled(Icon)`
 @media (min-width: ${mobsize}) {
@@ -162,7 +162,7 @@ height:36px;
 cursor:pointer;
 margin-left: 5px;
 background-size: 20px!important;
-background: url('/img/cancel.png') no-repeat center center;
+background: url('img/cancel.png') no-repeat center center;
 `;
 export const Nav = styled(Icon)`
 @media (min-width: ${mobsize}) {
@@ -173,12 +173,12 @@ background: ${props => props.show ? `url(${cancImg})` : `url(${hamImg})`} no-rep
 background-size:20px!important;
 `;
 export const Cart = styled(Icon)`
-background: url('/img/cart.png') no-repeat center center;
+background: url('img/cart.png') no-repeat center center;
 `;
 export const Account = styled(Icon)`
 width:44px;
 background-size: 32px!important;
-background: url('/img/account.png') no-repeat center center;
+background: url('img/account.png') no-repeat center center;
 `;
 
 export const DDownLink = styled(NavLink)`
